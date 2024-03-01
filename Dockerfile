@@ -8,7 +8,7 @@ RUN npm i
 
 COPY . . 
 
-ARG START_SCRIPT="start-dev"
+ARG START_SCRIPT="start"
 
 ENV START_SCRIPT=${START_SCRIPT}
 
